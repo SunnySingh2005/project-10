@@ -1,0 +1,77 @@
+body{
+  background-image: url(./pexels-victoria-akvarel-1648776.jpg);
+   padding: 0px;
+   margin: 0px;
+   background-position: 100% 100%;
+   background-size: cover;
+   
+}
+.container{
+    display: flex;
+justify-content: space-between;
+padding: 10px 20px ;
+align-items: center;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.contact{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.praghraph{
+    margin: 200px 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    
+}
+.button{
+    font-size: 20px;
+    margin-left: 100px;
+    position: absolute;
+    top: 450px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+
+.card-content1{
+    display: inline;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    right: 100px;
+    bottom: 320px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+}
+.card-content{
+    display: inline;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    right: 250px;
+    bottom: 100px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+}
+
